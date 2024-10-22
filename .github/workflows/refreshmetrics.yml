@@ -17,3 +17,10 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+
+          config_display: |
+            commits: yes
+            repositories_contributed_to: yes
+            languages_contributed: yes
+            lines_added: yes
+            lines_removed: yes
