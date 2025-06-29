@@ -24,3 +24,8 @@ jobs:
           plugin_languages_sections: recently-used
           plugin_languages_recent_load: 400
           plugin_languages_recent_days: 180
+          # add more languages
+          plugin_languages_indepth_custom: yes  # Include more repositories
+          plugin_languages_threshold: 0%       # Lower the threshold
+          plugin_languages_limit: 8            # Increase language limit
+          plugin_languages_categories: markup, programming, data  # Include more categories
