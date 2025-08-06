@@ -29,3 +29,5 @@ jobs:
           plugin_languages_threshold: 0%       # Lower the threshold
           plugin_languages_limit: 8            # Increase language limit
           plugin_languages_categories: markup, programming, data  # Include more categories
+          plugin_projects: yes
+          plugin_projects_descriptions: yes
