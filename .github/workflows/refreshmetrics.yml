@@ -44,9 +44,9 @@ jobs:
 
           # Featured projects as cards.
           plugin_repositories: yes
-          plugin_repositories_featured: mordor, ocaml99, rmm-zoo-dataset, python-lsp-client, python-isabelle-lsp-client, isabelle-check
+          plugin_repositories_featured: mordor, rmm-zoo-dataset, python-lsp-client, python-isabelle-lsp-client, isabelle-check
           plugin_repositories_order: featured
-          plugin_repositories_limit: 6
+          plugin_repositories_limit: 5
 
           # Contributions to repositories owned by others / organisations.
           plugin_notable: yes
